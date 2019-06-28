@@ -91,6 +91,21 @@ button:focus {
   background: #fff !important; }
 
 /*---------------------------------------------------- */
+
+.extra-button a{
+  text-decoration: none;
+  color: black;
+}
+
+.extra-button a:hover {
+  color: #f13d80;
+}
+.extra-button:hover {
+  background-color :white;
+  border-style: solid;
+  border-color: black;
+}
+
 /*----------------------------------------------------*/
 .section_gap {
   padding: 120px 0; }
@@ -934,7 +949,7 @@ button:focus {
       .about-area .about-inner .row {
         margin-left: -15px;
         margin-right: -15px; } }
-  .about-area .about-inner .single-success {
+  .education-area .single-success {
     background: #f4f8ff;
     padding: 40px 30px;
     margin-top: 30px;
@@ -943,21 +958,20 @@ button:focus {
     -o-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
     border-radius: 5px; }
-    .about-area .about-inner .single-success h5 {
+    .education-area .single-success h5 {
       font-size: 18px;
       -webkit-transition: all 0.3s ease 0s;
       -moz-transition: all 0.3s ease 0s;
       -o-transition: all 0.3s ease 0s;
       transition: all 0.3s ease 0s; }
-    .about-area .about-inner .single-success p {
+    .education-area .single-success p {
       margin: 0; 
 	  color: #777777;
 	  }
-    .about-area .about-inner .single-success:hover {
+    .education-area .single-success:hover {
       box-shadow: 0 10px 30px rgba(39, 0, 110, 0.3);
       color: #fff; }
-      .about-area .about-inner .single-success:hover h5 {
-        color: #fff; }
+
 
 /* End video Area css
 ============================================================================================ */
@@ -3232,3 +3246,13 @@ h6 {
 /*---------------------------------------------------- */
 
 /*# sourceMappingURL=style.css.map */
+
+
+.extra-button {
+  text-decoration: none;
+  color: black;
+}
+
+.extra-button:hover {
+  color: #f13d80;
+}
